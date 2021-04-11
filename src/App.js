@@ -26,7 +26,7 @@ const App = () => {
             >
                 <Typography
                     className={classes.heading}
-                    variant="h2"
+                    variant="h3"
                     align="center"
                 >
                     Memories
@@ -35,8 +35,8 @@ const App = () => {
                     className={classes.image}
                     src={memories}
                     alt="memories logo"
-                    height="60"
-                    width="60"
+                    height="50"
+                    width="50"
                 />
             </AppBar>
             <Grow in>
