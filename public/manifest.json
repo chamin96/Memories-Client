@@ -1,6 +1,7 @@
 {
   "short_name": "devSquare",
   "name": "devSquare.club",
+  "description": "devSquare.club is a open platform for independent developers to share their expertise and experiences with peer developers around the globe.",
   "icons": [
     {
       "src": "favicon.ico",
