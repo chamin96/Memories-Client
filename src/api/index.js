@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://knztnt-memories.herokuapp.com/posts" });
+const API = axios.create({ baseURL: "https://knztnt-memories.herokuapp.com" });
 // deploy url "https://knztnt-memories.herokuapp.com/posts";
 // local url http://localhost:5000
 
