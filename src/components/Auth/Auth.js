@@ -153,7 +153,7 @@ function Auth() {
                         onFailure={googleFailure}
                         cookiePolicy="single_host_origin"
                     />
-                    <Grid container justify="flex-end">
+                    <Grid container justifyContent="flex-end">
                         <Button
                             variant="text"
                             color="secondary"

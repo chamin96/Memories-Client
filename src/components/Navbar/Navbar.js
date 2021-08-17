@@ -136,14 +136,14 @@ function Navbar(props) {
               </IconButton>
             </Hidden>
           ) : null}
-          <div className={classes.brandContainer}>
+          <Link to="/" className={classes.brandContainer}>
             <img
               className={classes.image}
               src={logo}
               alt="dev square club logo"
               height="60"
             />
-          </div>
+          </Link>
           <Toolbar className={classes.toolbar}>
             {user ? (
               <div className={classes.profile}>
